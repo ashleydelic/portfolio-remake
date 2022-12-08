@@ -27,6 +27,7 @@ const NavBar = () => {
       link: 'contact',
       style: 'bg-green-700 rounded hover:bg-green-800'
     },
+   
   ]
 
   return (

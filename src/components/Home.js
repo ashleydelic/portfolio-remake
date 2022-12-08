@@ -14,7 +14,7 @@ const Home = () => {
  
   return (
 
-    <div data-AOS="fade-in" data-aos-duration="1500" id='home' className=' h-screen w-full '>
+    <div data-AOS="fade-in" data-aos-duration="1500" name='home' className=' h-screen w-full '>
      <div className=' max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row'>
          <div data-AOS="fade-up" className='flex flex-col justify-center h-full '>
         
