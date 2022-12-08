@@ -6,6 +6,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Toolkit from './components/Toolkit'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <Projects />
     <Toolkit />
     <Contact />
+    <Footer />
 
     <SocialLinks />
   </div>
