@@ -6,7 +6,7 @@ AOS.init();
 
 const Contact = () => {
   return (
-    <div data-AOS="fade-down" data-aos-duration="1500" name="contact" className="w-full h-screen bg-gradient-to-br sm:h-full sm:mt64 md:h-full from-slate-100 pt-20 to-white">
+    <div data-AOS="fade-down" data-aos-duration="1500" name="contact" className="w-full h-screen bg-gradient-to-br sm:h-screen md:h-screen sm:w-full from-slate-100 pt-20 to-white">
       <div className="felx flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="md:text-3xl text-2xl mb-4 font-medium">Let's connect! 🤝</p>

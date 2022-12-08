@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="about-page h-screen w-full flex md:flex-row flex-row justify-evenly mb-40 lg:px-16 px-8 pt-36 md:pb-24 sm:pb-28 pb-36"
+      className="about-page h-screen w-full flex md:flex-row sm:h-screen md:h-screen flex-row justify-evenly  lg:px-16 px-8 pt-36 md:pb-24 sm:pb-28 pb-36"
     >
       <div className=" p-4 md:w-1/2 w-1/1 md:mx-4 md:mb-0 mb-6">
         <div className="flex">
@@ -34,8 +34,8 @@ const About = () => {
         </p>
       </div>
 
-      <div>
-          <div data-AOS="fade-left" data-aos-duration="1500">
+      <div >
+          <div  data-AOS="fade-left" data-aos-duration="1500">
               <img src={AboutPic} alt="computer gif" width={400} />
           </div>
           
