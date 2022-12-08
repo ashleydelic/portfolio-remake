@@ -8,6 +8,7 @@ import NodeIcon from "../assets/icons/node-icon.png";
 import ReactIcon from "../assets/icons/react-icon.png";
 import TailwindIcon from "../assets/icons/tailwind-icon.png";
 import VscIcon from "../assets/icons/vsc-icon.png";
+import ApiIcon from '../assets/icons/api-icon.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -69,6 +70,12 @@ const Toolkit = () => {
       title: "Visual Studio Code",
       style: 'shadow-cyan-400'
     },
+    {
+        id: 10,
+        src: ApiIcon,
+        title: "REST API",
+        style: 'shadow-green-300'
+    }
 
   ];
   return (
@@ -86,7 +93,7 @@ const Toolkit = () => {
           {icons.map(({ id, title, src, style }) => (
             <div key={id} className={`hover:scale-105 duration-500 shadow-md rounded-lg p-1 text-center ${style}`}>
               <div className="p-12">
-              <img src={src} alt="icons" className=" w-12 mx-auto" />
+              <img src={src} alt="icons" className=" w-16 mx-auto" />
               </div>
             <div className=" text-green-800 ">
               {title}

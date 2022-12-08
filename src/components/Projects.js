@@ -18,7 +18,7 @@ const Projects = () => {
         {
             id: 1,
             title: "Playtime Weather",
-            body: "This is a simple kids weather app, built with Reactjs and CSS using the OpenWeatherMap API, my first time using an API. The user can input their local city's name and it will return whether its a good day to play outside or its best to have indoor fun instead (based on the description from when they start the app). Deployed with Netlify.",
+            body: "This is a simple kids weather app, built with Reactjs and CSS using the OpenWeatherMap REST API, my first time using an API. The user can input their local city's name and it will return whether its a good day to play outside or its best to have indoor fun instead (based on the description from when they start the app). Deployed with Netlify.",
             src: WeatherApp,
             liveLink: "https://playtimeweather.netlify.app/",
             codeLink: "https://github.com/ashleydelic/play-weather-app"
@@ -38,7 +38,7 @@ const Projects = () => {
             body: "I enjoyed building this site so i felt that it deserved a place in this section. It was built with React and Tailwind CSS from scratch, Tailwind has been a bit challenging as i kept referencing from the Tailwind site, but eventually got the hang of it. Mobile development has also been kept in mind although it still needs a few more fixes. To be updated... ",
             src: PortfolioApp,
             liveLink: "",
-            codeLink: "https://github.com/ashleydelic/portfolio-site"
+            codeLink: "https://github.com/ashleydelic/portfolio-remake"
         },
         {
             id: 4,
