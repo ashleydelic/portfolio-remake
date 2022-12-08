@@ -6,11 +6,11 @@ AOS.init();
 
 const Contact = () => {
   return (
-    <div data-AOS="fade-left" data-aos-duration="1500" name="contact" className="w-full h-screen bg-gradient-to-br from-slate-100 pt-20 to-white">
+    <div data-AOS="fade-left" data-aos-duration="1500" name="contact" className="w-full h-screen bg-slate-100 pt-20 ">
       <div className="felx flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="md:text-3xl text-2xl mb-4 font-medium">Let's connect! 🤝</p>
-          <p className="py-6 text-gray-500">Submit form below to get in touch </p>
+          <p className="py-6 text-gray-500">I'm interested in junior software developer opportunities, a cup of virtual coffee is a must as well! Feel free to use the form below and we can have a chat, thanks for everything and take care!</p>
         </div>
 
         <div className="">
