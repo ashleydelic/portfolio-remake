@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer>
-      <div class="text-center p-6 bg-gray-200">
+      <div class="text-center p-2 bg-gray-200">
     <span>© 2022 Copyright: Delić Development</span>
     
   </div>
