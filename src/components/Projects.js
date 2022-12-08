@@ -68,7 +68,7 @@ const Projects = () => {
     ]
 
   return (
-    <div name='projects' className='w-full md:h-full sm:h-full bg-gradient-to-b from-white to-amber-50'>
+    <div name='projects' className='w-full md:h-full bg-gradient-to-b from-white pb-6 to-amber-50'>
       <div className=' max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
           <div className='pb-8 '>
               <p className='md:text-3xl text-2xl mb-4 font-medium'>Projects</p>
@@ -76,7 +76,7 @@ const Projects = () => {
           </div>
 
 
-<div data-AOS="fade-right" data-aos-duration="1500" className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 py-12 sm:px-0 '>
+<div data-AOS="fade-right" data-aos-duration="1500" className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 '>
 
 {
               portfolio.map(({id, title, src, body, liveLink, codeLink}) => (
