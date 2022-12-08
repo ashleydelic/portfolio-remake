@@ -76,7 +76,7 @@ const Projects = () => {
           </div>
 
 
-<div data-AOS="fade-right" data-aos-duration="1500" className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 '>
+<div data-AOS="fade-right" data-aos-duration="1500" className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 py-12 sm:px-0 '>
 
 {
               portfolio.map(({id, title, src, body, liveLink, codeLink}) => (
@@ -87,8 +87,12 @@ const Projects = () => {
                     </div>
                 <img src={src} alt="project on devices" className='rounded-md duration-200 hover:scale-105' />
 
-                <div className=' p-4 text-gray-500 text-base font-medium'>
-                {body}
+                <div className=' p-5 text-gray-500 text-base font-medium'>
+                <details className="my-2 font-medium text-dark-slate whitespace-pre-line">
+          <summary className="sm:text-lg mb-2 max-w-fit font-semibold cursor-pointer">Read more...</summary>
+          {body}
+        </details>
+                {}
                 </div>
                 
                 
