@@ -89,13 +89,13 @@ const Toolkit = () => {
           <p className="py-6 text-gray-500">These are the technologies I've worked with so far...</p>
         </div>
 
-        <div data-AOS="fade-down" data-aos-duration="1500" className="grid grid-cols-3 w-full sm:grid-cols-5 mb-12 gap-8 sm:w-full py-6 px-8 sm:px-2">
+        <div data-AOS="fade-down" data-aos-duration="1500" className="grid grid-cols-3 w-full sm:grid-cols-5 mb-12 gap-8 md:w-full sm:w-full py-6 px-8 ">
           {icons.map(({ id, title, src, style }) => (
-            <div key={id} className={`hover:scale-105 duration-500 shadow-md rounded-lg p-1 text-center ${style}`}>
+            <div key={id} className={`hover:scale-105 duration-500 shadow-md rounded-lg p-2 text-center ${style}`}>
               <div className="p-12">
-              <img src={src} alt="icons" className=" w-12 mx-auto" />
+              <img src={src} alt="icons" className=" w-20 mx-auto" />
               </div>
-            <div className=" text-green-800 ">
+            <div className=" text-green-800 text-xs">
               {title}
             </div>
             </div>
