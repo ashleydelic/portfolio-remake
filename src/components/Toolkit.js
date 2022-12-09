@@ -1,14 +1,7 @@
 import React from "react";
-import FigmaIcon from "../assets/icons/figma-icon.png";
-import GitHubIcon from "../assets/icons/github-icon.png";
-import CssIcon from "../assets/icons/css-icon.png";
-import HTML5 from "../assets/icons/html-icon.png";
-import JsIcon from "../assets/icons/js-icon.png";
-import NodeIcon from "../assets/icons/node-icon.png";
-import ReactIcon from "../assets/icons/react-icon.png";
-import TailwindIcon from "../assets/icons/tailwind-icon.png";
-import VscIcon from "../assets/icons/vsc-icon.png";
-import ApiIcon from '../assets/icons/api-icon.png'
+import {FaFigma, FaGithub, FaCss3Alt, FaHtml5, FaJs, FaNode, FaReact, } from 'react-icons/fa'
+import {SiTailwindcss, SiVisualstudiocode} from 'react-icons/si'
+import {TbApi} from 'react-icons/tb'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -18,63 +11,63 @@ const Toolkit = () => {
   const icons = [
     {
       id: 1,
-      src: HTML5,
+      src: <FaHtml5 size={40} />,
       title: "HTML5",
-      style: 'shadow-blue-400'
+      style: 'shadow-blue-400 text-start'
     },
     {
       id: 2,
-      src: CssIcon,
+      src: <FaCss3Alt size={40} />,
       title: "CSS",
-      style: 'shadow-orange-400'
+      style: 'shadow-orange-400 text-start'
     },
     {
       id: 3,
-      src: JsIcon,
+      src: <FaJs size={40} />,
       title: "JavaScript",
-      style: 'shadow-orange-400'
+      style: 'shadow-orange-400 text-start'
     },
     {
       id: 4,
-      src: ReactIcon,
+      src: <FaReact size={40} />,
       title: "React",
-      style: 'shadow-cyan-200'
+      style: 'shadow-cyan-200 text-start'
     },
     {
       id: 5,
-      src: TailwindIcon,
+      src: <SiTailwindcss size={40}/>,
       title: "Tailwind CSS",
-      style: 'shadow-cyan-500'
+      style: 'shadow-cyan-500 text-start'
     },
     {
       id: 6,
-      src: GitHubIcon,
+      src: <FaGithub size={40}/>,
       title: "GitHub",
-      style: "shadow-cyan-400"
+      style: "shadow-cyan-400 text-start"
     },
     {
       id: 7,
-      src: FigmaIcon,
+      src: <FaFigma size={40}/>,
       title: "Figma",
-      style: "shadow-red-300"
+      style: "shadow-red-300 text-start"
     },
     {
       id: 8,
-      src: NodeIcon,
+      src: <FaNode size={40}/>,
       title: "Nodejs",
-      style: 'shadow-green-400'
+      style: 'shadow-green-400 text-start'
     },
     {
       id: 9,
-      src: VscIcon,
+      src: <SiVisualstudiocode size={40} />,
       title: "Visual Studio Code",
-      style: 'shadow-cyan-400'
+      style: 'shadow-cyan-400 text-start'
     },
     {
         id: 10,
-        src: ApiIcon,
+        src: <TbApi size={40}/>,
         title: "REST API",
-        style: 'shadow-green-300'
+        style: 'shadow-green-300 text-start'
     }
 
   ];
@@ -91,9 +84,9 @@ const Toolkit = () => {
 
         <div data-AOS="fade-down" data-aos-duration="1500" className="grid grid-cols-3 w-full sm:grid-cols-5 mb-12 gap-8 md:w-full sm:w-full py-6 px-8 ">
           {icons.map(({ id, title, src, style }) => (
-            <div key={id} className={`hover:scale-105 duration-500 rounded-lg p-2 text-center ${style}`}>
-              <div className="p-12">
-              <img src={src} alt="icons" className=" w-20 mx-auto" />
+            <div key={id} className={`hover:scale-105 duration-500 flex items-center p-6 text-amber-600 text-center ${style}`}>
+              <div className=" w-full">
+              {src}
               </div>
             <div className=" text-green-800 text-xs">
               {title}
