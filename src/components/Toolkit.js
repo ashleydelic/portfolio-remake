@@ -84,7 +84,7 @@ const Toolkit = () => {
 
         <div data-AOS="fade-down" data-aos-duration="1500" className="grid grid-cols-3 w-full sm:grid-cols-5 mb-12 gap-8 md:w-full sm:w-full py-6 px-2 ">
           {icons.map(({ id, title, src, style }) => (
-            <div key={id} className={`hover:scale-105 duration-500 flex flex-row items-center shadow-md justify-evenly p-4 text-amber-600 sm:w-full  text-center ${style}`}>
+            <div key={id} className={`hover:scale-105 duration-500 flex flex-row items-center justify-evenly p-4 text-amber-600 sm:w-full  text-center ${style}`}>
               <div className="w-full">
               {src}
               </div>
