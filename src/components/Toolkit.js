@@ -66,7 +66,7 @@ const Toolkit = () => {
     {
         id: 10,
         src: <TbApi size={40}/>,
-        title: "REST API",
+        title: "REST APIs",
         style: 'shadow-green-300 text-start'
     }
 
