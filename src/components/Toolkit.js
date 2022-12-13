@@ -1,6 +1,6 @@
 import React from "react";
 import {FaFigma, FaGithub, FaCss3Alt, FaHtml5, FaJs, FaNode, FaReact, } from 'react-icons/fa'
-import {SiTailwindcss, SiVisualstudiocode} from 'react-icons/si'
+import {SiTailwindcss, SiVisualstudiocode, SiMysql} from 'react-icons/si'
 import {TbApi} from 'react-icons/tb'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -67,6 +67,12 @@ const Toolkit = () => {
         id: 10,
         src: <TbApi size={40}/>,
         title: "REST APIs",
+        style: 'text-center'
+    },
+    {
+        id: 11,
+        src: <SiMysql size={40}/>,
+        title: "MySQL",
         style: 'text-center'
     }
 
